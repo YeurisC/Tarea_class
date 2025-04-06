@@ -8,6 +8,8 @@ while resp == 's':
 
     numero1 = int(input('Ingrese el valor 1: '))
     numero2 = int(input('ingrese valor 2: '))
+    if numero1 == 0 or numero2 == 0:
+        print("No se puede dividir entre 0. Esto es una calculadora que hace todo junto.")
     suma = numero1 + numero2
     resta = numero1 - numero2
     division = numero1 / numero2
