@@ -5,6 +5,7 @@ resp = 's'
 while resp == 's':
     #TODO:
     #sumar, restar, multiplicar y dividir
+    print("Bienvenido a tu calculadora personal.")
 
     numero1 = int(input('Ingrese el valor 1: '))
     numero2 = int(input('ingrese valor 2: '))
